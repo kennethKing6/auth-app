@@ -31,12 +31,7 @@
 			android:name=".GoogleSignInActivity"
 			android:label="@string/label_google_sign_in"/>
 
-		<activity
-			android:name=".EmailPasswordActivity"
-			android:label="@string/label_emailpassword"
-			android:windowSoftInputMode="stateAlwaysHidden|adjustResize"/>
-
-		<activity
+        <activity
 			android:name=".AnonymousAuthActivity"
 			android:label="@string/label_anonymous_auth"/>
 
@@ -49,10 +44,6 @@
 			android:label="@string/label_manage_user"
 			android:windowSoftInputMode="stateAlwaysHidden"/>
 
-		<activity
-			android:name=".PhoneAuthActivity"
-			android:label="@string/label_phone_auth"/>
-
-	</application>
+    </application>
 
 </manifest>
